@@ -1,0 +1,154 @@
+:root{
+    --primaryText: #a4a4a4;
+    --focusText: #3d47a3;
+}
+
+body{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+.flex{
+    display: flex;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+h6{
+    margin: 0px;
+}
+
+li{
+    margin: 0.5rem;
+}
+
+main{
+    padding: 1rem;
+}
+
+hr{
+    color: var(--primaryText);
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 0px 1rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.header-text{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.header-text img{
+    width: 100px;
+}
+
+.header-text p{
+    color: var(--primaryText)
+}
+
+.welcomeSection{
+    flex-wrap: nowrap;
+    padding: 1rem;
+}
+
+.welcomeSection div{
+    margin: 1rem;
+}
+
+.welcomeSection img{
+    width: 60vw;
+}
+
+.focus-text{
+    color: var(--focusText);
+    margin: 0.3rem;
+    text-transform: uppercase;
+}
+
+.heading{
+    font: bold;
+    font-size: 25px;
+    margin: 0.2rem;
+    text-transform: capitalize;
+}
+
+.welcomeSection-text p {
+    color: var(--primaryText);
+}
+
+.date-text{
+    align-items: center;
+}
+
+.date-text img{
+    height: 30px !important;
+    width: 30px !important  
+}
+
+.date-text p{
+    color: var(--primaryText);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.post{
+    flex-wrap: nowrap;
+    max-width: 100vw;
+    padding-top: 1rem;
+}
+
+.post div{
+    margin: 0.1rem;
+    padding: 0.5rem;
+}
+
+.post img{
+    border-radius: 5px;
+    width: 30vw;
+}
+
+.post p{
+    color: var(--primaryText);
+}
+
+.additional-post{
+    padding: 2rem 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
